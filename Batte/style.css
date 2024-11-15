@@ -1,0 +1,87 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+	list-style: none;
+}
+
+a:link, a:visited{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 20px;
+	font-size: 25px;
+	color: black;
+	border-right: 2px solid black;
+}
+
+ul li{
+	float: left;
+}
+
+h1{
+	text-align: center;
+}
+
+h2, h3, p{
+	text-align: left;
+	padding-left: 5%;
+} 
+
+ol li{
+	text-align: left;
+	padding-left: 2%;
+}
+
+th{
+	font-size: 35px;
+}
+
+
+.header-element table{
+	width: 70%;
+	margin: 1% 15%;
+}
+
+.school table{
+	width: 70%;
+	padding: 2%;
+	margin: 1% 15%;
+}
+
+.school td, tr, th{
+	padding: 2%;
+	margin: 10%;
+	text-align: center;
+}
+
+.work table{
+	width: 70%;
+	margin: 0% 15%;
+}
+
+.hobbies table{
+	width: 70%;
+	margin: 1% 15%;
+}
+
+.career table{
+	width: 70%;
+	margin: 1% 15%;
+}
+
+.footer{
+	float: left;
+	width: 100%;
+	font-weight: bolder;
+	text-align: center;
+	background-color: black;
+	color: gray;
+	padding: 5px;
+}
